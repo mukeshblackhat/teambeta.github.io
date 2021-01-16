@@ -1,0 +1,100 @@
+@font-face{
+   font-family: myFont;
+   src: url(../Assets/Fonts/Anurati-Regular.otf);
+} 
+body {
+   margin: 0;
+   text-align: center;
+   background: linear-gradient(132deg, #CA7768, #815E5B);
+   background-size: 400% 400%;
+   animation: anigradient 15s ease infinite;
+}
+@keyframes anigradient {
+   0% {
+       background-position: 50% 0%
+   }
+
+   50% {
+       background-position: 60% 100%
+   }
+
+   100% {
+       background-position: 50% 0%
+   }
+}
+
+#navbar{
+   background-color:transparent;
+   height: 50px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+#navbar img{
+   height: 70px;
+   float: left;
+}
+ul{
+   text-align: right;
+   list-style: none;
+}
+li{
+   display: inline;
+}
+li img{
+   height: 100px;
+   width: auto;
+}
+li a {
+   font-size: 25px;
+   padding: 5px 15px;
+   text-align: center;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   text-decoration: none;
+   transition: .6s;
+}
+a:hover{
+   transform: translate(5px 5px);
+   text-shadow: 3px 4px 6px #941e00;
+}
+#welcome{
+   padding: 0.2cm 2cm 0.2cm 2cm;
+   color: aliceblue;
+   font-size: 80px;
+   font-family: 'Allura', cursive;
+   text-shadow: 20px 20px 500px rgb(136, 129, 99);
+}
+#content{
+   color: white;
+   font-size: 21px;
+   background-color: #FFF1E6;
+   padding:100px 300px 200px 300px;
+   box-shadow: -15px 5px 100px black;
+}
+
+
+.form-control{
+   width:10cm;
+   height:1cm;
+   margin-bottom:.2cm;
+}
+.formgroup{
+   text-size-adjust:12px ;
+}
+.form1{
+   height:4cm;
+   width:10cm;
+   margin-bottom:.2cm;
+}
+#sbutton{
+   background-color:rgba(243, 169, 144, 0.938);
+   height:1cm;
+   width:2cm;
+}
+#sbutton:hover{
+   background-color:rgba(243, 169, 144, 0.938);
+   height:1cm;
+   width:2cm;
+   box-shadow: 4px 5px 6px black;
+   transition:.7s;
+}
