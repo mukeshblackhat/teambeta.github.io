@@ -82,6 +82,9 @@ vertical-align: center;
     height: 50px;
     font-size: 20px;
 }
+#middle img{
+    height: 20px;
+}
 
 .addrcont {
     display: inline-block;
