@@ -8,6 +8,7 @@ body {
     background: linear-gradient(132deg, #CA7768, #815E5B);
     background-size: 400% 400%;
     animation: anigradient 15s ease infinite;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 @keyframes anigradient {
     0% {
@@ -108,13 +109,13 @@ a:hover {
 
 #cardcon {
     padding: 10px 20px 40px 20px;
-    background-color: #ecdfcd;
+    background-color: #fbc194;
     box-shadow: -15px -25px 100px black;
 }
 
 .card {
     display: inline-block;
-    background: linear-gradient(70deg, #fcd5ce, #ddbea9);
+    background: linear-gradient(70deg, #ffded8, #f0cfb9);
     height: 50%;
     width: 7cm;
     border-radius: 5px;
@@ -162,7 +163,7 @@ a:hover {
 }
 
 #bottom {
-    background-color: #fbc194;
+    background-color: #fdb883;
     padding-bottom: 50px;
     padding-top: 30px;
 }
