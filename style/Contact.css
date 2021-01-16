@@ -98,3 +98,25 @@ a:hover{
    box-shadow: 4px 5px 6px black;
    transition:.7s;
 }
+#bottom {
+   background-color:#fbc194;
+   padding-bottom: 0px;
+}
+
+.addrcont {
+   display: inline-block;
+   width: 6cm;
+   height: 3cm;
+   text-align: center;
+   margin-top: 10px;
+   padding-bottom: 20px;
+}
+.addrcont img{
+height: 30px;
+width: auto;
+}
+.title{
+   font-family: 'B612 Mono', monospace;
+   color: darksalmon;
+   font-size: 102%;
+}
