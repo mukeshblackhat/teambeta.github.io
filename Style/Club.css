@@ -1,0 +1,91 @@
+@font-face {
+    font-family: myFont;
+    src: url(../Assets/Fonts/BebasNeue-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background-size: 400% 400%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#topcon {
+    background-color: #BF3100;
+    margin-top: -30px;
+    box-shadow: 30px 30px 30px black;
+}
+
+#navbar {
+    background-color: transparent;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#navbar img {
+    height: 70px;
+    float: left;
+}
+
+ul {
+    text-align: right;
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+li img {
+    height: 100px;
+    width: auto;
+}
+
+li a {
+    font-size: 25px;
+    padding: 5px 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: .6s;
+}
+
+a:hover {
+    transform: translate(5px 5px);
+    text-shadow: 3px 4px 6px #941e00;
+}
+
+#welcome {
+    font-size: 125px;
+    color: antiquewhite;
+    padding-bottom: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#welcome img {padding-left: 50px;
+    float: left;
+}
+
+#welcome p {padding-left: 30px;
+display: inline-block;
+vertical-align: center;
+}
+#bottom {
+    background-color: #fbc194;
+    padding-bottom: 20px;
+}
+
+.addrcont {
+    display: inline-block;
+    width: 6cm;
+    height: 3cm;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.addrcont img {
+    height: 30px;
+    width: auto;
+}
