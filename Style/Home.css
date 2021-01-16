@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFont;
+    src: url(../Assets/Fonts/Anurati-Regular.otf)
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -61,7 +66,7 @@ a:hover {
 }
 
 #welcome {
-    padding: 1cm 2cm 0cm 2cm;
+    padding: 3cm 2cm 6cm 2cm;
     color: aliceblue;
     font-size: 80px;
     font-family: myFont;
@@ -112,7 +117,7 @@ a:hover {
 .card {
     display: inline-block;
     background: linear-gradient(70deg, #e6b8a2, #ddbea9);
-    height: 30%;
+    height: 50%;
     width: 7cm;
     border-radius: 5px;
     margin: 25px 25px 20px 20px;
@@ -151,6 +156,7 @@ a:hover {
     height: 45px;
     width: auto;
     transition: 1.4s;
+    margin-bottom: 8px;
 }
 
 .Socials img:hover {
