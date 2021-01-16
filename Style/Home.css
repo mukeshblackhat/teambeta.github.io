@@ -1,8 +1,7 @@
-@font-face {
+@font-face{
     font-family: myFont;
-    src: url(../Assets/Fonts/Anurati-Regular.otf)
+    src: url(../Assets/Fonts/ITCEDSCR.TTF)
 }
-
 body {
     margin: 0;
     text-align: center;
@@ -65,10 +64,9 @@ a:hover {
     text-shadow: 3px 4px 6px #941e00;
 }
 
-#welcome {
-    padding: 3cm 2cm 6cm 2cm;
+#welcome {padding: 2cm 1cm 1cm 3cm;
     color: aliceblue;
-    font-size: 80px;
+    font-size: 200px;
     font-family: myFont;
     text-shadow: 20px 20px 500px rgb(136, 129, 99);
 
@@ -110,13 +108,13 @@ a:hover {
 
 #cardcon {
     padding: 10px 20px 40px 20px;
-    background-color: #f9dcc4;
+    background-color: #ecdfcd;
     box-shadow: -15px -25px 100px black;
 }
 
 .card {
     display: inline-block;
-    background: linear-gradient(70deg, #e6b8a2, #ddbea9);
+    background: linear-gradient(70deg, #fcd5ce, #ddbea9);
     height: 50%;
     width: 7cm;
     border-radius: 5px;

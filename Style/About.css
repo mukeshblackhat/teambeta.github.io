@@ -1,6 +1,6 @@
 @font-face{
     font-family: myFont;
-    src: url(../Assets/Fonts/Anurati-Regular.otf);
+    src: url(../Assets/Fonts/BebasNeue-Regular.ttf);
 } 
 body { 
     margin: 0;
@@ -61,7 +61,7 @@ a:hover{
     color: antiquewhite;
     padding:3cm 2cm 4cm 2cm;
     font-size: 80px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: myFont;
     text-shadow: 20px 20px 500px rgb(136, 129, 99);
 }
 #content{
