@@ -2,7 +2,7 @@
     font-family: myFont;
     src: url(../Assets/Fonts/Anurati-Regular.otf);
 } 
-body {
+body { 
     margin: 0;
     text-align: center;
     background: linear-gradient(132deg, #CA7768, #815E5B);
